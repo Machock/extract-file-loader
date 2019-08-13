@@ -1,0 +1,27 @@
+{
+  "name": "extract-file-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Machock/extract-file-loader.git"
+  },
+  "keywords": [],
+  "author": "luojia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Machock/extract-file-loader/issues"
+  },
+  "homepage": "https://github.com/Machock/extract-file-loader#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}

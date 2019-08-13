@@ -1,0 +1,20 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "publicPath": {
+      "description": "publicPath are supported  string or function",
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "instanceof": "Function"
+        }
+      ]
+    },
+    "name": {
+      "description": "name are supported string",
+      "type": "string"
+    }
+  }
+}
